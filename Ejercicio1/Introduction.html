@@ -16,5 +16,71 @@
       permitiendo a los desarrolladores separar el contenido (HTML) de la
       presentación (CSS).
     </p>
+
+    <h2>2. CSS utiliza reglas para las declaraciones de estilo, ¿cómo funcionan?</h2>
+    <p>
+      Las reglas de CSS consisten en un selector y bloque de declaración. El selector
+      identifica el elemento HTML al que se aplica el estilo, y la declaración
+      especifica cómo debe verse ese elemento.
+      Por ejemplo:
+
+       h1 { 
+        color: blue;
+       }
+
+      aplica el color azul al texto de todos los encabezados de nivel 1.
+    </p>
+
+    <h2>3. ¿Cuáles son las tres formas de dar estilo a un documento?</h2>
+    <p>
+      Las tres formas de dar estilo a un documento son:
+      <ol>
+        <li><strong>Estilo en línea:</strong> Se aplica directamente al elemento HTML utilizando el atributo `style="..."`.</li>
+        <li><strong>Estilo interno:</strong> Se define dentro de la etiqueta `style` en la sección `head` del documento HTML.</li>
+        <li><strong>Estilo externo:</strong> Se define en un archivo separado con extensión ".css " y se vincula al documento HTML utilizando la etiqueta `<link>`. </li>
+      </ol>
+    </p>
+
+    <h2>4. ¿Cuáles son los distintos tipos de selectores más utilizados?</h2>
+    <p>
+      Los selectores más utilizados son:
+      <ul>
+        <li><strong>Selectores de elemento/etiqueta:</strong> Seleccionan elementos por su nombre, por ejemplo, `p` para todos los párrafos.</li>
+        <li><strong>Selectores de clase:</strong> Seleccionan elementos por su atributo `class`, por ejemplo, `.destacado ` para elementos con la clase "destacado". </li>
+        <li><strong>Selectores de ID:</strong> Seleccionan elementos por su atributo `id`, por ejemplo, `#principal ` para el elemento con el ID "principal". </li>
+              <li><strong>Selector universal:</strong> `*` para seleccionar todos los elementos. </li>
+
+        </ul>
+    </p>
+
+    <h2>5. ¿Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?</h2>
+    <p>
+      Una pseudo-clase es un selector que permite aplicar estilos a elementos en función de su estado o posición en el documento. Las pseudo-clases más utilizadas aplicadas a vínculos/links son:
+      <ul>
+        <li><strong>:link:</strong> Aplica estilos a los vínculos que aún no han sido visitados.</li>
+        <li><strong>:visited:</strong> Aplica estilos a los vínculos que ya han sido visitados.</li>
+        <li><strong>:hover:</strong> Aplica estilos cuando el usuario pasa el cursor sobre un vínculo.</li>
+        <li><strong>:active:</strong> Aplica estilos cuando un vínculo está siendo activado (por ejemplo, al hacer clic). </li>
+      </ul>
+    </p>
+
+      <h2> 6. ¿ Qué es la herencia?  </h2> 
+      <p>
+        La herencia en CSS se refiere a la capacidad de los elementos para heredar propiedades de estilo de sus elementos padres. Por ejemplo, si se define un color de texto en un elemento padre, los elementos hijos heredarán ese color a menos que se les asigne un valor diferente.
+      </p>
+
+      <h2> 7. ¿ En qué consiste el proceso denominado cascada? </h2>
+      <p>
+        La cascada en CSS es el proceso mediante el cual el navegador determina qué estilos aplicar a un elemento cuando hay múltiples reglas que se aplican a ese elemento. 
+        El orden de importancia es: estilos en línea > estilos internos > estilos externos.
+        CSS tiene en cuenta:
+        <ul>
+          <li>prioridad del selector</li>
+          <li>orden de aparición</li>
+          <li>herencia</li>
+          <li>especificidad</li>
+        </ul>
+      </p>
+
   </body>
 </html>
