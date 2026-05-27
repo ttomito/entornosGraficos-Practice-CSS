@@ -1,0 +1,39 @@
+p#normal {
+  font-family: arial, helvetica;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* Análisis
+p#normal es un selector que aplica estilos al elemento <p> cuyo id es "normal".
+Declaraciones
+
+font-family: arial, helvetica; → cambia la fuente.
+font-size: 11px; → establece el tamaño de letra en 11 píxeles.
+font-weight: bold; → coloca el texto en negrita. */
+
+*#destacado {
+  border-style: solid;
+  border-color: blue;
+  border-width: 2px;
+}
+
+/* Análisis
+*#destacado selecciona cualquier elemento que tenga el id="destacado".
+
+Declaraciones
+border-style: solid; → crea un borde sólido.
+border-color: blue; → el borde será azul.
+border-width: 2px; → grosor de 2 píxeles. */
+
+#distinto {
+  background-color: #9ec7eb;
+  color: red;
+}
+
+/* Análisis
+#distinto selecciona el elemento con id="distinto".
+
+Declaraciones
+background-color: #9EC7EB; → agrega color de fondo celeste.
+color: red; → cambia el color del texto a rojo. */

@@ -1,0 +1,36 @@
+p.quitar {
+  color: red;
+}
+
+/*Análisis
+p.quitar selecciona únicamente los elementos <p> que tengan la clase "quitar".
+
+Declaración
+color: red; → cambia el color del texto a rojo.*/
+
+*.desarrollo {
+  font-size: 8px;
+}
+
+/*Análisis
+*.desarrollo selecciona cualquier elemento que tenga la clase "desarrollo".
+
+Declaración
+font-size: 8px; → establece tamaño de letra de 8 píxeles.*/
+
+.importante {
+  font-size: 20px;
+}
+
+/* Análisis
+.importante selecciona cualquier elemento con la clase "importante".
+
+Declaración
+font-size: 20px; → aumenta el tamaño del texto a 20 píxeles.
+ */
+
+/*IMPORTANTE      IMPORTANTE
+
+ En un ultimo parrafo se aplican varias clases: "quitar" e "importante" Por lo tanto se
+aplican ambas reglas CSS: .quitar → texto rojo .importante → tamaño 20px
+      */
