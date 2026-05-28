@@ -25,12 +25,12 @@ p {
 
 /* 
 
-ASE TRABAJA ESPECIALMENTE HERENCIA Y PRIORIDAD DE REGLAS
+SE TRABAJA ESPECIALMENTE HERENCIA Y PRIORIDAD DE REGLAS
 
 Lo que cambia especialmente entre ambos casos, es donde se aplica la clase contenido, la herencia y prioridad de reglas en el CSS.
 
 - En el caso 1 la clase contenido se aplica a un elemnto <p> y tambien la regla de p{}, por lo tanto se utiliza el proceso en cascada
-y es especificidad para decidir cual aplicar, en este caso la prioridad la tiene la regla aplicada internamente, luego la clase .contenido y luegooo la p{}
+y especificidad para decidir cual aplicar, en este caso la prioridad la tiene la regla aplicada internamente, luego la clase .contenido y luegooo la p{}
 
 - En el segundo caso la clase contenido se applica al elemento <body>, se hereda la negrita y tamaño para todo el texto por la clase nombrada,
 excepto por una para el p{} ya que tiene una regla que se le aplica directamente sobre el tamaño, esta tiene prioridad.
